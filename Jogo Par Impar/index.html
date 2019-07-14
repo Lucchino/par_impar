@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Par ou Ímpar?</title>
+    <link rel="stylesheet" href="par_impar2.css">
+</head>
+
+<body>
+    <div id="pag">
+        <form action="javascript:sorte();void(0)">
+            <table align="center" id="table">
+                <tr>
+                    <td align="center" colspan="3">
+                        Escolha um número de 0 a 9
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Par <input type="radio" id="radio2" name="grupo" />
+                    </td>
+                    <td align="center">
+                        <input type="text" align="center" size="1" maxlength="1" id="vc" />
+                    </td>
+                    <td align="left">
+                        <input type="radio" id="radio1" name="grupo" />Ímpar
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td align="center">
+                        <input type="submit" value="OK" id="ok" />
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <table align="center" id="res">
+                <tr id="rest">
+                    <td>
+                        <div>
+                            <input type="text" id="resp" size="55" />
+                            <div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        <script src="par_impar2.js"></script>
+</body>
+
+</html>
